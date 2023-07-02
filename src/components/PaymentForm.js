@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import StripeCheckout from 'react-stripe-checkout';
+import React, { useState } from "react";
+import StripeCheckout from "react-stripe-checkout";
 
 export const PaymentForm = () => {
   const [cardDetails, setCardDetails] = useState({});
@@ -10,10 +10,10 @@ export const PaymentForm = () => {
 
   return (
     <StripeCheckout
-      stripeKey="TU_CLAVE_API_STRIPE"
+      stripeKey="pk_test_51NPGvTIWTu7I8BFTiMa7VxCefbTLM1z3JIBEo8c0PvyMTOzYwUYLxYhDTflBcICoaYuu56rerspz1o9PFm65sONs005pSPZgyq"
       token={handleToken}
-      name="Mi Tienda"
-      description="Descripción de la compra"
+      name="FoxRobotics"
+      description="Donation"
       amount={100}
       currency="USD"
     >
@@ -21,4 +21,3 @@ export const PaymentForm = () => {
     </StripeCheckout>
   );
 };
-
