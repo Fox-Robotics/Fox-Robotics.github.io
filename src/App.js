@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
-import { Donate } from "./components/Donate";
+import logo from "./logo.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import LineFollower from "./pages/LineFollower/LineFollower";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
-
-      <Projects />
-      <Contact />
-      <Donate />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/lineFollowerV1" element={<LineFollower />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

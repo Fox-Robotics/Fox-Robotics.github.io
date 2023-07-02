@@ -4,7 +4,7 @@ import logo from "../assets/img/FoxLogo.png";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
-export const NavBar = () => {
+export const ProjectsNavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
@@ -39,31 +39,44 @@ export const NavBar = () => {
           <Nav className="ms-auto">
             {/* <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>About</Nav.Link> */}
             <Nav.Link
-              href="/#project"
+              href="/"
               className={
-                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+                activeLink === "Home" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("projects")}
+              onClick={() => onUpdateActiveLink("Home")}
             >
-              Projects
+              Home
             </Nav.Link>
             <Nav.Link
-              href="/#connect"
+              href="#Description"
               className={
-                activeLink === "contact" ? "active navbar-link" : "navbar-link"
+                activeLink === "Description"
+                  ? "active navbar-link"
+                  : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("contact")}
+              onClick={() => onUpdateActiveLink("Description")}
             >
-              Contact
+              Description
             </Nav.Link>
             <Nav.Link
-              href="/#donate"
+              href="#Technologies"
               className={
-                activeLink === "donate" ? "active navbar-link" : "navbar-link"
+                activeLink === "Technologies"
+                  ? "active navbar-link"
+                  : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("contact")}
+              onClick={() => onUpdateActiveLink("Technologies")}
             >
-              Donate
+              Technologies
+            </Nav.Link>
+            <Nav.Link
+              href="#Images"
+              className={
+                activeLink === "Images" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("Images")}
+            >
+              Images
             </Nav.Link>
           </Nav>
           {/* <span className="navbar-text">

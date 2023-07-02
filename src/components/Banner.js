@@ -77,10 +77,12 @@ export const Banner = () => {
                 the way you look at technologies. We are innovators, we are
                 disruptors.
               </p>
-              <button onClick={() => console.log("connect")}>
-                <a href="#project">See our projects</a>{" "}
-                <ArrowRightCircle size={25} />
-              </button>
+              <a href="#project" className="text-warning text-decoration-none">
+                <button className="text-warning" href="#project">
+                  See our projects
+                  <ArrowRightCircle size={25} />
+                </button>
+              </a>{" "}
             </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
