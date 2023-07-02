@@ -17,7 +17,7 @@ export const PaymentForm = () => {
       amount={100}
       currency="USD"
     >
-      <button>Comprar</button>
+      <button>Donate</button>
     </StripeCheckout>
   );
 };

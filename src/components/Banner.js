@@ -12,7 +12,11 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(90);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Innovators.", "Disruptors.", "Creatives.", "a team."];
+  const toRotate = [
+    "more then a robotics team.",
+    "pushing boundaries in robotics.",
+    "where creativity meets robotics.",
+  ];
   const period = 900;
 
   useEffect(() => {
@@ -58,7 +62,16 @@ export const Banner = () => {
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <div>
-              <h1>More than a robotics team.</h1>
+              <h1>
+                {`We are FoxRobotics,`}{" "}
+                <span
+                  className="txt-rotate"
+                  dataPeriod="1000"
+                  data-rotate='[ "more then a robotics team", "pushing boundaries in robotics.", "where creativity meets robotics." ]'
+                >
+                  <span className="wrap">{text}</span>
+                </span>
+              </h1>
               <p>
                 Here at Fox Robotics, we are looking for opportunities to change
                 the way you look at technologies. We are innovators, we are
