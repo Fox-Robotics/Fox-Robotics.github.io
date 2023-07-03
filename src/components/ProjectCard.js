@@ -7,13 +7,16 @@ export const ProjectCard = ({
   veryShortDescription,
 }) => {
   console.log(images[0]);
+  let hiperlink;
+  let projClassName = "proj-imgbx1";
+  if (projectId !== undefined) {
+    hiperlink = "/projects?projectId=" + projectId;
+    projClassName = "proj-imgbx";
+  }
   return (
     <Col size={12} sm={6} md={4}>
-      <a
-        href={"/projects?projectId=" + projectId}
-        className="text-decoration-none text-white"
-      >
-        <div className="proj-imgbx">
+      <a href={hiperlink} className="text-decoration-none text-white">
+        <div className={projClassName}>
           <img src={images[0]} />
           <div className="proj-txtx">
             <h4>{title}</h4>

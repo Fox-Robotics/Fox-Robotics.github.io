@@ -459,6 +459,26 @@ button a:hover{
   top: 50%;
   opacity: 1;
 }
+
+
+
+
+.proj-imgbx1 {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  transition: transform .2s;
+}
+@media screen and (min-width: 570px){
+  .proj-imgbx1:active  {
+    transform: scale(3);
+    z-index: 1;
+  }
+}
+
+
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
