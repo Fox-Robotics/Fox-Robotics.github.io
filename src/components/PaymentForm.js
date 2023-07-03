@@ -14,10 +14,12 @@ export const PaymentForm = () => {
       token={handleToken}
       name="FoxRobotics"
       description="Donation"
-      amount={100}
+      amount={1000}
       currency="USD"
     >
-      <button>Donate</button>
+      <button>
+        <span>Donate</span>
+      </button>
     </StripeCheckout>
   );
 };

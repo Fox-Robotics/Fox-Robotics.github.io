@@ -500,7 +500,64 @@ button a:hover{
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Donate Css ************/
+
+.donate h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+.donate button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.donate button span {
+  z-index: 1;
+  position: relative;
+}
+.donate button:hover {
+  color: #ffffff;
+}
+.donate button::before {
+  content: "";
+  background: linear-gradient(90.21deg, #ebe426 -5.91%, #b08e29 111.58%);
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.donate button:hover::before {
+  width: 100%;
+  color:white;
+}
+
+.donate p{
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+
+
+
+
+
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #ebe426 -5.91%, #b08e29 111.58%);
   padding: 60px 0 200px 0;
