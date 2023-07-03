@@ -8,42 +8,9 @@ import LineFollowerImg from "../assets/img/LineFollowerV1,1.jpg";
 import colorSharp2 from "../assets/img/gradient.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import Roboticsprojects from "./RoboticsProjectList";
 
 export const Projects = () => {
-  const Roboticsprojects = [
-    {
-      title: "Line Follower",
-      description: "V1",
-      imgUrl: LineFollowerImg,
-      link: "/lineFollowerV1",
-    },
-    {
-      title: "Line Follower",
-      description: "v2",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Line Follower",
-      description: "v4",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Conmutated power supply",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Radiofrequency tansmitter and receiver",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Quadpod",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-  ];
-
   const CodingProjects = [
     {
       title: "Space Apps",
@@ -127,7 +94,7 @@ export const Projects = () => {
                       <Tab.Pane eventKey="second">
                         <Row>
                           {CodingProjects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
+                            //return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>

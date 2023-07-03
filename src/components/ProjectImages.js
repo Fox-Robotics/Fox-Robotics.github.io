@@ -11,7 +11,7 @@ export default function ProjectImages({ projectId }) {
         <h2>Images</h2>
         <Row>
           {Roboticsprojects[projectId].images.map((image, index) => {
-            return <ProjectCard key={index} imgUrl={image} />;
+            return <ProjectCard key={index} images={[image]} />;
           })}
         </Row>
       </Container>

@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import LineFollower from "./pages/LineFollower/LineFollower";
+import ProjectPage from "./pages/LineFollower/ProjectPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 
@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/lineFollowerV1" element={<LineFollower />} />
+          <Route path="/projects" element={<ProjectPage />} />
         </Routes>
       </Router>
     </div>
