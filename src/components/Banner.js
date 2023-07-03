@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/Landign-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import { HashLink as Link } from "react-router-hash-link";
 import "animate.css";
 
 export const Banner = () => {
@@ -75,12 +76,15 @@ export const Banner = () => {
                 the way you look at technologies. We are innovators, we are
                 disruptors.
               </p>
-              <a href="#project" className="text-warning text-decoration-none">
-                <button className="text-warning" href="#project">
+              <Link
+                to="/#project"
+                className="text-warning text-decoration-none"
+              >
+                <button className="text-warning" href="/#/#project">
                   See our projects
                   <ArrowRightCircle size={25} />
                 </button>
-              </a>{" "}
+              </Link>
             </div>
           </Col>
           <Col xs={12} md={6} xl={5}>

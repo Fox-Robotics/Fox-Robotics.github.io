@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/FoxLogo.png";
-import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -38,40 +38,34 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             {/* <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>About</Nav.Link> */}
-            <Nav.Link
-              href="/#project"
+            <Link
+              to="/#project"
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
               Projects
-            </Nav.Link>
-            <Nav.Link
-              href="/#connect"
+            </Link>
+            <Link
+              to="/#connect"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("contact")}
             >
               Contact
-            </Nav.Link>
-            <Nav.Link
-              href="/#donate"
+            </Link>
+            <Link
+              to="/#donate"
               className={
                 activeLink === "donate" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("contact")}
+              onClick={() => onUpdateActiveLink("donate")}
             >
               Donate
-            </Nav.Link>
+            </Link>
           </Nav>
-          {/* <span className="navbar-text">
-             
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Donate</span></button>
-              </HashLink>
-            </span> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

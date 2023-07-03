@@ -10,7 +10,7 @@ export const ProjectCard = ({
   let hiperlink;
   let projClassName = "proj-imgbx1";
   if (projectId !== undefined) {
-    hiperlink = "/projects?projectId=" + projectId;
+    hiperlink = "/#/projects?projectId=" + projectId;
     projClassName = "proj-imgbx";
   }
   return (

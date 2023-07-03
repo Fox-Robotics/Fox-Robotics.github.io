@@ -238,6 +238,33 @@ button a:hover{
   text-decoration: none;
   color:white;
 }
+
+
+.navbar-link {
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.navbar-link.active {
+    opacity: 1;
+}
+
+.navbar-link:hover {
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 1;
+  text-decoration: none;
+}
+
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
