@@ -20,7 +20,11 @@ const codingProjects = [
     technologies: ["C", "KiCAD", "Altium", "Cpp", "Solidworks", "Python"],
     technologiesDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    images: [LineFollowerImg1, LineFollowerImg2, LineFollowerImg3],
+    media: [
+      [LineFollowerImg1, "image"],
+      [LineFollowerImg2, "image"],
+      [LineFollowerImg3, "image"],
+    ],
     members: ["juanito", "luis", "pancho"],
   },
   {
@@ -35,7 +39,11 @@ const codingProjects = [
     technologies: ["C", "KiCAD"],
     technologiesDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    images: [LineFollowerImg1, LineFollowerImg2, LineFollowerImg3],
+    media: [
+      [LineFollowerImg1, "image"],
+      [LineFollowerImg2, "image"],
+      [LineFollowerImg3, "image"],
+    ],
     members: ["2juanito", "luis", "pancho"],
   },
 ];

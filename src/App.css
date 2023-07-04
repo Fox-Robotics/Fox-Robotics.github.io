@@ -497,10 +497,13 @@ button a:hover{
   margin-bottom: 24px;
   transition: transform .2s;
 }
-@media screen and (min-width: 570px){
+@media screen and (min-width: 576px){
   .proj-imgbx1:active  {
-    transform: scale(3);
-    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: scale(1.2)  translate(-50%, -50%);
+    position: fixed;
+    z-index: 99;
   }
 }
 

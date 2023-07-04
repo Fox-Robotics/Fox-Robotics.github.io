@@ -1,6 +1,7 @@
 import LineFollowerImg1 from "../assets/img/LineFollowerV1,1.jpg";
 import LineFollowerImg2 from "../assets/img/LineFollowerV1,2.jpg";
 import LineFollowerImg3 from "../assets/img/LineFollowerV1,3.jpg";
+import UTT from "../assets/videos/UTT.mp4";
 
 /*
 El nombre de las tecnologias tiene que estar escrito exactamente asi para que funcione
@@ -20,7 +21,12 @@ const Roboticsprojects = [
     technologies: ["C", "KiCAD", "Altium", "Cpp", "Solidworks", "Python"],
     technologiesDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    images: [LineFollowerImg1, LineFollowerImg2, LineFollowerImg3],
+    media: [
+      [LineFollowerImg1, "image"],
+      [LineFollowerImg2, "image"],
+      [LineFollowerImg3, "image"],
+      [UTT, "video"],
+    ],
     members: ["juanito", "luis", "pancho"],
   },
   {
@@ -35,8 +41,12 @@ const Roboticsprojects = [
     technologies: ["C", "KiCAD"],
     technologiesDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    images: [LineFollowerImg1, LineFollowerImg2, LineFollowerImg3],
-    members: ["2juanito", "luis", "pancho"],
+    media: [
+      [LineFollowerImg1, "image"],
+      [LineFollowerImg2, "image"],
+      [LineFollowerImg3, "image"],
+    ],
+    members: ["2juanito", "2luis", "2pancho"],
   },
 ];
 

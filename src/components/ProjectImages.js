@@ -8,8 +8,8 @@ export default function ProjectImages({ projectId, projectList }) {
       <Container>
         <h2>Images</h2>
         <Row>
-          {projectList[projectId].images.map((image, index) => {
-            return <ProjectCard key={index} images={[image]} />;
+          {projectList[projectId].media.map((media, index) => {
+            return <ProjectCard key={index} media={media} />;
           })}
         </Row>
       </Container>

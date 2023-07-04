@@ -7,7 +7,6 @@ import { HashRouter } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import ScrollToTop from "./components/ScrollToTop";
 import Roboticsprojects from "./components/RoboticsProjectList";
-import codingProjects from "./components/CodingProjectList";
 
 function App() {
   return (

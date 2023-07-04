@@ -54,6 +54,7 @@ export const Projects = () => {
                               <ProjectCard
                                 key={index}
                                 {...project}
+                                media={project.media[0]}
                                 type={"robotics"}
                               />
                             );
@@ -67,6 +68,7 @@ export const Projects = () => {
                               <ProjectCard
                                 key={index}
                                 {...project}
+                                media={project.media[0]}
                                 type={"coding"}
                               />
                             );

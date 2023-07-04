@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import VideoImage from "./VideoImage";
 
 export default function ProjectBanner({ projectId, projectList }) {
   return (
@@ -22,7 +23,7 @@ export default function ProjectBanner({ projectId, projectList }) {
           </Col>
           <Col xs={12} md={6} xl={7}>
             <div>
-              <img src={projectList[projectId].images[0]} alt="Header Img" />
+              <VideoImage media={projectList[projectId].media[0]} />
             </div>
           </Col>
         </Row>
