@@ -1,22 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.bde374a9.css",
-    "main.js": "/static/js/main.8b5cefcd.js",
+    "main.js": "/static/js/main.670baa73.js",
     "static/js/787.5e1ab3a3.chunk.js": "/static/js/787.5e1ab3a3.chunk.js",
-    "static/media/python-logo.png": "/static/media/python-logo.dea924d737bb84eb9ce3.png",
+    "static/media/python-logo.png": "/static/media/python-logo.d18634e73497afcb30e5.png",
     "static/media/Cpp-logo.png": "/static/media/Cpp-logo.64f637357bce0ccc8384.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/project-img1.png": "/static/media/project-img1.d593db3f12901bc685c2.png",
     "static/media/LineFollowerV1,3.jpg": "/static/media/LineFollowerV1,3.6961b1025f8857840ee9.jpg",
     "static/media/C-logo.png": "/static/media/C-logo.c0da8156a8d17281c29e.png",
     "static/media/LineFollowerV1,1.jpg": "/static/media/LineFollowerV1,1.771d638a869861a1b7c8.jpg",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/LineFollowerV1,2.jpg": "/static/media/LineFollowerV1,2.467c95785f035bf2e668.jpg",
-    "static/media/project-img2.png": "/static/media/project-img2.2e52097c417f9f1134b0.png",
     "static/media/FoxLogo.png": "/static/media/FoxLogo.985f3c11b0d9050fd88c.png",
-    "static/media/project-img3.png": "/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/altium-logo.png": "/static/media/altium-logo.e4d915db84978f37ee17.png",
     "static/media/Landign-img.svg": "/static/media/Landign-img.be37d03a83864b438561b7df177e50ea.svg",
@@ -30,11 +27,11 @@
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.bde374a9.css.map": "/static/css/main.bde374a9.css.map",
-    "main.8b5cefcd.js.map": "/static/js/main.8b5cefcd.js.map",
+    "main.670baa73.js.map": "/static/js/main.670baa73.js.map",
     "787.5e1ab3a3.chunk.js.map": "/static/js/787.5e1ab3a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bde374a9.css",
-    "static/js/main.8b5cefcd.js"
+    "static/js/main.670baa73.js"
   ]
 }
