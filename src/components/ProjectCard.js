@@ -5,12 +5,13 @@ export const ProjectCard = ({
   images,
   projectId,
   veryShortDescription,
+  type,
 }) => {
   console.log(images[0]);
   let hiperlink;
   let projClassName = "proj-imgbx1";
   if (projectId !== undefined) {
-    hiperlink = "/#/projects?projectId=" + projectId;
+    hiperlink = "/#/Projects?projectId=" + projectId + "&type=" + type;
     projClassName = "proj-imgbx";
   }
   return (

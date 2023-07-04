@@ -1,10 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
-import Roboticsprojects from "./RoboticsProjectList";
 import TechToLogo from "./TechToLogo";
 
-export const Technologies = ({ projectId }) => {
+export const Technologies = ({ projectId, projectList }) => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -32,22 +30,20 @@ export const Technologies = ({ projectId }) => {
           <div className="col-12">
             <div className="technologies-bx wow zoomIn">
               <h2>Technologies</h2>
-              <p>{Roboticsprojects[projectId].technologiesDescription}</p>
+              <p>{projectList[projectId].technologiesDescription}</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme technologies-slider"
               >
-                {Roboticsprojects[projectId].technologies.map(
-                  (project, index) => {
-                    return (
-                      <div className="item" key={index}>
-                        <img src={TechToLogo[project]} alt="Image" />
-                        <h5>{project}</h5>
-                      </div>
-                    );
-                  }
-                )}
+                {projectList[projectId].technologies.map((project, index) => {
+                  return (
+                    <div className="item" key={index}>
+                      <img src={TechToLogo[project]} alt="Image" />
+                      <h5>{project}</h5>
+                    </div>
+                  );
+                })}
               </Carousel>
             </div>
           </div>

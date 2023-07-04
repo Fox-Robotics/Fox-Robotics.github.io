@@ -1,49 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import LineFollowerImg from "../assets/img/LineFollowerV1,1.jpg";
-// import colorSharp2 from "../assets/img/color-sharp2.png";
 import colorSharp2 from "../assets/img/gradient.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import Roboticsprojects from "./RoboticsProjectList";
+import codingProjects from "./CodingProjectList";
 
 export const Projects = () => {
-  const CodingProjects = [
-    {
-      title: "Space Apps",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-  ];
-
   return (
     <section className="project" id="project">
       <Container>
@@ -87,14 +50,26 @@ export const Projects = () => {
                       <Tab.Pane eventKey="first">
                         <Row>
                           {Roboticsprojects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                type={"robotics"}
+                              />
+                            );
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {CodingProjects.map((project, index) => {
-                            //return <ProjectCard key={index} {...project} />;
+                          {codingProjects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                type={"coding"}
+                              />
+                            );
                           })}
                         </Row>
                       </Tab.Pane>

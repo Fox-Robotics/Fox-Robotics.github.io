@@ -1,7 +1,7 @@
 {
   "name": "fox-robotics",
   "version": "0.1.0",
-  "homepage": "https://fox-robotics.github.io/",
+  "homepage": "http://foxrobotics.tech/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

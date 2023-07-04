@@ -5,20 +5,28 @@ import { ProjectsNavBar } from "../../components/ProjectsNavBar";
 import ProjectBanner from "../../components/ProjectBanner";
 import ProjectDescription from "../../components/ProjectDescription";
 import ProjectImages from "../../components/ProjectImages";
-import RoboticsProjectList from "../../components/RoboticsProjectList";
+import Roboticsprojects from "../../components/RoboticsProjectList";
+import codingProjects from "../../components/CodingProjectList";
 
 export default function ProjectPage() {
   const [searchParams] = useSearchParams();
   let id = 0;
-  if (searchParams.get("projectId") < RoboticsProjectList.length) {
+  let projectList = Roboticsprojects;
+  if (searchParams.get("type") === "coding") {
+    projectList = codingProjects;
+  }
+  if (searchParams.get("projectId") < projectList.length) {
     id = searchParams.get("projectId");
   }
   return (
     <div>
       <ProjectsNavBar></ProjectsNavBar>
-      <ProjectBanner projectId={id}></ProjectBanner>
-      <ProjectDescription projectId={id}></ProjectDescription>
-      <ProjectImages projectId={id}></ProjectImages>
+      <ProjectBanner projectId={id} projectList={projectList}></ProjectBanner>
+      <ProjectDescription
+        projectId={id}
+        projectList={projectList}
+      ></ProjectDescription>
+      <ProjectImages projectId={id} projectList={projectList}></ProjectImages>
       <Footer />
     </div>
   );

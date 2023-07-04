@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/FoxLogo.png";
-import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 export const NavBar = () => {
