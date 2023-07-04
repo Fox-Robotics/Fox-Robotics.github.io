@@ -3,6 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import VideoImage from "./VideoImage";
 
 export default function ProjectBanner({ projectId, projectList }) {
+  let githubButton;
+  if (projectList[projectId].githubLink) {
+    githubButton = (
+      <a
+        href={projectList[projectId].githubLink}
+        className="text-warning text-decoration-none"
+      >
+        <button className="text-warning" href="#project">
+          See on Github
+        </button>
+      </a>
+    );
+  }
   return (
     <section className="banner" id="project">
       <Container>
@@ -11,14 +24,7 @@ export default function ProjectBanner({ projectId, projectList }) {
             <div>
               <h1>{projectList[projectId].title}</h1>
               <p>{projectList[projectId].landingDescription}</p>
-              <a
-                href={projectList[projectId].githubLink}
-                className="text-warning text-decoration-none"
-              >
-                <button className="text-warning" href="#project">
-                  See on Github
-                </button>
-              </a>{" "}
+              {githubButton}
             </div>
           </Col>
           <Col xs={12} md={6} xl={7}>
