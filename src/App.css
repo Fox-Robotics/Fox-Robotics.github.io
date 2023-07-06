@@ -499,11 +499,11 @@ button a:hover{
 }
 @media screen and (min-width: 576px){
   .proj-imgbx1:active  {
+    transform: scale(1.2) translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    transform: scale(1.2)  translate(-50%, -50%);
     position: fixed;
-    z-index: 99;
+    z-index: 1;
   }
 }
 

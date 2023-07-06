@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import ScrollToTop from "./components/ScrollToTop";
-import Roboticsprojects from "./components/RoboticsProjectList";
 
 function App() {
   return (
