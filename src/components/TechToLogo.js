@@ -8,6 +8,8 @@ import flaskLogo from "../assets/img/techLogos/Flask-logo.png";
 import javascriptLogo from "../assets/img/techLogos/JavaScript-logo.png";
 import tensorflowLogo from "../assets/img/techLogos/Tensorflow-logo.png";
 import reactLogo from "../assets/img/techLogos/React-logo.png";
+import azureLogo from "../assets/img/techLogos/Azure-logo.png";
+import azureAppServiceLogo from "../assets/img/techLogos/AzureAppServiceLogo.png";
 //matlab
 
 const TechToLogo = {
@@ -21,6 +23,10 @@ const TechToLogo = {
   JavaScript: javascriptLogo,
   Tensorflow: tensorflowLogo,
   React: reactLogo,
+  ReactNative: reactLogo,
+  Azure: azureLogo,
+  AzureMaps: azureLogo,
+  AzureAppService: azureAppServiceLogo,
 };
 
 export default TechToLogo;

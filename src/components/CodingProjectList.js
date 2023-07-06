@@ -9,6 +9,12 @@ import MyFoxyArt5 from "../assets/img/coding/MyFoxyArt/5.jpg";
 import MyFoxyArt6 from "../assets/img/coding/MyFoxyArt/6.jpeg";
 import MyFoxyArt7 from "../assets/img/coding/MyFoxyArt/7.jpg";
 import MyFoxyArt8 from "../assets/img/coding/MyFoxyArt/8.jpeg";
+import TalentLand1 from "../assets/videos/coding/TalentLand/1.MP4";
+import TalentLand2 from "../assets/img/coding/TalentLand/2.png";
+import TalentLand3 from "../assets/img/coding/TalentLand/3.png";
+import TalentLand4 from "../assets/img/coding/TalentLand/4.png";
+import TalentLand5 from "../assets/img/coding/TalentLand/5.jpeg";
+import TalentLand6 from "../assets/img/coding/TalentLand/6.jpeg";
 
 /*
 El nombre de las tecnologias tiene que estar escrito exactamente asi para que funcione
@@ -19,6 +25,46 @@ Tensorflow, Flask, React, JavaScript
 const codingProjects = [
   {
     projectId: 0,
+    title: "Fox Sharing",
+    veryShortDescription: "Talent Land 2023",
+    landingDescription:
+      "Mobile app for share mobility system that allows the user to have the availability to rent a car and move with it from one point to another safely.",
+    pageLink: "",
+    githubLink: "https://github.com/Fox-Robotics/Capgemini-FoxSharing-Front",
+    longDescription: (
+      <>
+        This project was developed for the Genius Arena Talent Land 2023 on the
+        Capgemini Car-To-Share track. Our goal was to develop and embeded system
+        and a mobile app that enabled the user to rent, reserve, open and drive
+        a shared car. <br />
+        We developed an embedded system based on the ESP32 microcontroller that
+        could be installed in most comercial cars and a cross platform mobile
+        app to control it.
+      </>
+    ),
+    technologies: [
+      "ReactNative",
+      "Python",
+      "Flask",
+      "JavaScript",
+      "Altium",
+      "AzureMaps",
+      "AzureAppService",
+    ],
+    technologiesDescription:
+      "React Native app with Flask backend hosted on Azure",
+    media: [
+      [TalentLand1, "video"],
+      [TalentLand2, "image"],
+      [TalentLand3, "image"],
+      [TalentLand4, "image"],
+      [TalentLand5, "image"],
+      [TalentLand6, "image"],
+    ],
+    members: ["2juanito", "luis", "pancho"],
+  },
+  {
+    projectId: 1,
     title: "My Foxy Art",
     veryShortDescription: "NASA's Space Apps 2023",
     landingDescription:
@@ -27,7 +73,14 @@ const codingProjects = [
     githubLink: "https://github.com/Fox-Robotics/MyFoxyArt.github.io",
     longDescription:
       "Using ML/AI techniques, the team must develop a web application where once an user inputs a short text referring to space, the application searches through NASA´s repository of data and imagery, matching the input with the data found and creating brand new artistic images.",
-    technologies: ["Python", "Flask", "Tensorflow", "React", "JavaScript"],
+    technologies: [
+      "Python",
+      "Flask",
+      "Tensorflow",
+      "React",
+      "JavaScript",
+      "Azure",
+    ],
     technologiesDescription: "We utilize Tensorflow, Flask, and React",
     media: [
       [MyFoxyArt1, "image"],
@@ -40,26 +93,6 @@ const codingProjects = [
       [MyFoxyArt8, "image"],
     ],
     members: ["juanito", "luis", "pancho"],
-  },
-  {
-    projectId: 1,
-    title: "Coding 3",
-    veryShortDescription: "V2",
-    landingDescription:
-      "2Here at Fox Robotics, we are looking for opportunities to change the way you look at technologies. We are innovators, we are disruptors.",
-    pageLink: "",
-    githubLink: "https://github.com/Fox-Robotics/Line-follower-v1",
-    longDescription:
-      "2Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    technologies: ["C", "KiCAD"],
-    technologiesDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    media: [
-      [LineFollowerImg1, "image"],
-      [LineFollowerImg2, "image"],
-      [LineFollowerImg3, "image"],
-    ],
-    members: ["2juanito", "luis", "pancho"],
   },
 ];
 
