@@ -1,11 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7249984e.css",
-    "main.js": "/static/js/main.44eaf159.js",
+    "main.css": "/static/css/main.dfb3efd1.css",
+    "main.js": "/static/js/main.a900fcdd.js",
     "static/js/787.5e1ab3a3.chunk.js": "/static/js/787.5e1ab3a3.chunk.js",
+    "static/media/5.jpeg": "/static/media/5.966d7adf69a464359236.jpeg",
+    "static/media/1.MP4": "/static/media/1.5b399f27044d1ad8ca16.MP4",
+    "static/media/6.jpeg": "/static/media/6.3fe31083547a20c7fe09.jpeg",
     "static/media/UTT.mp4": "/static/media/UTT.60c0519efb08bc801b55.mp4",
-    "static/media/python-logo.png": "/static/media/python-logo.d18634e73497afcb30e5.png",
     "static/media/2.png": "/static/media/2.8855d46dd7cdf72bd021.png",
+    "static/media/python-logo.png": "/static/media/python-logo.d18634e73497afcb30e5.png",
+    "static/media/4.png": "/static/media/4.895010903026d2050344.png",
+    "static/media/Azure-logo.png": "/static/media/Azure-logo.5a694f18b0e4f276ce48.png",
+    "static/media/3.png": "/static/media/3.105635e1f1227a30b6d3.png",
     "static/media/1.png": "/static/media/1.356062d21f88848c6e88.png",
     "static/media/React-logo.png": "/static/media/React-logo.81ed438b18e24116794d.png",
     "static/media/Cpp-logo.png": "/static/media/Cpp-logo.64f637357bce0ccc8384.png",
@@ -25,8 +31,8 @@
     "static/media/Flask-logo.png": "/static/media/Flask-logo.56a8eb70d4d1ea3fe67c.png",
     "static/media/8.jpeg": "/static/media/8.a1b56f9c20b44f0d865a.jpeg",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/6.jpeg": "/static/media/6.3fe31083547a20c7fe09.jpeg",
     "static/media/altium-logo.png": "/static/media/altium-logo.e4d915db84978f37ee17.png",
+    "static/media/AzureAppServiceLogo.png": "/static/media/AzureAppServiceLogo.3dc15e1126ddcc06d91d.png",
     "static/media/JavaScript-logo.png": "/static/media/JavaScript-logo.928da83081e073adaff3.png",
     "static/media/Landign-img.svg": "/static/media/Landign-img.be37d03a83864b438561b7df177e50ea.svg",
     "static/media/5.jpg": "/static/media/5.949c20eb81ca39174fff.jpg",
@@ -39,12 +45,12 @@
     "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.08b285abb8e118b52637efa5d65c5367.svg",
     "static/media/facebook.svg": "/static/media/facebook.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.7249984e.css.map": "/static/css/main.7249984e.css.map",
-    "main.44eaf159.js.map": "/static/js/main.44eaf159.js.map",
+    "main.dfb3efd1.css.map": "/static/css/main.dfb3efd1.css.map",
+    "main.a900fcdd.js.map": "/static/js/main.a900fcdd.js.map",
     "787.5e1ab3a3.chunk.js.map": "/static/js/787.5e1ab3a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7249984e.css",
-    "static/js/main.44eaf159.js"
+    "static/css/main.dfb3efd1.css",
+    "static/js/main.a900fcdd.js"
   ]
 }
