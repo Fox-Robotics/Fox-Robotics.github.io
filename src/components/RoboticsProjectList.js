@@ -36,8 +36,7 @@ const Roboticsprojects = [
       "The Line Follower V1 functions via the QTR-8A Reflectance Sensor Array to detect a black line in the track. This optic sensor sends an analog signal to the Arduino Nano, the Machine Control Unit (MCU). The analog signal received by the MCU is sent again to the TB6612FNG Dual Motor Driver Carrier which consequently controls the two motors on the back wheels. The entire system is powered with a 7.4V Lipo battery.",
     ),
     technologies: ["C++", "KiCAD"],
-    technologiesDescription:
-      "Printed circuit board designed using KiCAD and engineered by a C++ code",
+    technologiesDescription: "Printed circuit board designed using KiCAD and engineered by a C++ code",
     media: [
       [LineFollowerImg1, "image"],
       [LineFollowerImg2, "image"],
@@ -75,8 +74,7 @@ const Roboticsprojects = [
     longDescription:
       "The models were designed using SolidWorks 2022, where we conducted a series of motion studies to analyze the behavior of the crank. Once the analysis was complete, we proceeded to 3D print the model for further examination. We utilize a piece of plywood as the base allowing us to observe the mechanism more precisely. For the 3D printing of the model, we use Polylactic Acid (PLA) filament for the assembly parts of the crank.",
     technologies: ["Solidworks", "Working Model", "Ultimaker Cura", "Creality 3D"],
-    technologiesDescription:
-      "Models design by solidworks, analyzed with Working Model, and manufactured via Cura and Creality Slicers",
+    technologiesDescription: "Models design by solidworks, analyzed with Working Model, and manufactured via Cura and Creality Slicers",
     media: [
       [Mecha, "image"],
       ],
