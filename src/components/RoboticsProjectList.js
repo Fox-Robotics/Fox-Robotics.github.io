@@ -28,7 +28,7 @@ const Roboticsprojects = [
     githubLink: "https://github.com/Fox-Robotics/Line-follower-v1",
     longDescription:
       "The Line Follower V1 functions via the QTR-8A Reflectance Sensor Array to detect a black line in the track. This optic sensor sends an analog signal to the Arduino Nano, the Machine Control Unit (MCU). The analog signal received by the MCU is sent again to the TB6612FNG Dual Motor Driver Carrier which consequently controls the two motors on the back wheels. The entire system is powered with a 7.4V Lipo battery.",
-    technologies: ["C++", "KiCAD",],
+    technologies: ["C++", "KiCAD"],
     technologiesDescription:
       "Printed circuit board designed using KiCAD and engineered by a C++ code",
     media: [
