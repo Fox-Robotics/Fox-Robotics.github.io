@@ -1,12 +1,12 @@
 import LineFollowerImg1 from "../assets/img/LineFollowerV1,1.jpg";
 import LineFollowerImg2 from "../assets/img/LineFollowerV1,2.jpg";
 import LineFollowerImg3 from "../assets/img/LineFollowerV1,3.jpg";
-import Follower_V2 from "../assets/img/LineFollowerV1,1.jpg";
-import Mecha from "../assets/img/LineFollowerV1,2.jpg";
-import Emitter from "../assets/img/LineFollowerV1,3.jpg";
-import Receiver from "../assets/img/LineFollowerV1,1.jpg";
-import MazeSolver from "../assets/img/LineFollowerV1,2.jpg";
-import SMPS from "../assets/img/LineFollowerV1,3.jpg";
+import Follower_V2 from "../assets/img/Follower_V2.jpg";
+import Mecha from "../assets/img/Mecha.jpg";
+import Emitter from "../assets/img/Emitter.jpg";
+import Receiver from "../assets/img/Receiver.jpg";
+import MazeSolver from "../assets/img/MazeSolver.jpg";
+import SMPS from "../assets/img/SMPS.jpg";
 import UTT from "../assets/videos/UTT.mp4";
 
 /*
@@ -32,8 +32,9 @@ const Roboticsprojects = [
     landingDescription:
       " Printed Circuit Board (PCB) that uses an optic sensor array to detect a black-line track and operate an entire mobile system.",
     githubLink: "https://github.com/Fox-Robotics/Line-follower-v1",
-    longDescription:
+    longDescription: (
       "The Line Follower V1 functions via the QTR-8A Reflectance Sensor Array to detect a black line in the track. This optic sensor sends an analog signal to the Arduino Nano, the Machine Control Unit (MCU). The analog signal received by the MCU is sent again to the TB6612FNG Dual Motor Driver Carrier which consequently controls the two motors on the back wheels. The entire system is powered with a 7.4V Lipo battery.",
+    ),
     technologies: ["C++", "KiCAD"],
     technologiesDescription:
       "Printed circuit board designed using KiCAD and engineered by a C++ code",
