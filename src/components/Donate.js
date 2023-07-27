@@ -9,9 +9,8 @@ export const Donate = () => {
         <Row className="text-center">
           <h2>Donate</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            Your support helps us keep our mission alive. Donate today and
+            become a part of our team making a difference.
           </p>
           <PaymentForm />
         </Row>

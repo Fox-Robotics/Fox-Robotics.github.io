@@ -14,7 +14,7 @@ export default function VideoImage({ media, height }) {
   if (media[1] === "image") {
     return (
       <div className={`image-container ${isFullscreen ? "fullscreen" : ""}`}>
-        <img src={media[0]} height={height} onClick={toggleFullscreen} />
+        <img src={media[0]} height="300" onClick={toggleFullscreen} />
       </div>
     );
   } else {

@@ -9,7 +9,7 @@ import MyFoxyArt5 from "../assets/img/coding/MyFoxyArt/5.jpg";
 import MyFoxyArt6 from "../assets/img/coding/MyFoxyArt/6.jpeg";
 import MyFoxyArt7 from "../assets/img/coding/MyFoxyArt/7.jpg";
 import MyFoxyArt8 from "../assets/img/coding/MyFoxyArt/8.jpeg";
-import TalentLand1 from "../assets/videos/coding/TalentLand/1.MP4";
+import TalentLand1 from "../assets/img/coding/TalentLand/1.gif";
 import TalentLand2 from "../assets/img/coding/TalentLand/2.png";
 import TalentLand3 from "../assets/img/coding/TalentLand/3.png";
 import TalentLand4 from "../assets/img/coding/TalentLand/4.png";
@@ -54,7 +54,7 @@ const codingProjects = [
     technologiesDescription:
       "React Native app with Flask backend hosted on Azure",
     media: [
-      [TalentLand1, "video"],
+      [TalentLand1, "image"],
       [TalentLand2, "image"],
       [TalentLand3, "image"],
       [TalentLand4, "image"],
