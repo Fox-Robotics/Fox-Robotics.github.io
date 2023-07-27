@@ -4,7 +4,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
 export const Donate = () => {
   return (
-    <div className="donate" id="donate">
+    <div className="donate d-flex justify-content-center" id="donate">
       <Container className="m-5">
         <Row className="text-center">
           <h2>Donate</h2>
