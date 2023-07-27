@@ -11,7 +11,7 @@ import SMPS from "../assets/img/SMPS.png";
 /*
 ---------Notas Sobre como llenar el archivo---------
 El nombre de las tecnologias tiene que estar escrito exactamente asi para que funcione
-C, Cpp, KiCAD, Altium, Solidworks, Python
+C, Cpp, KiCAD, Altium, Solidworks, Python, WorkingModel, MATLAB, UltimakerCura, Creality3D
 
 El githubLink puede estar vacio si no hay repositorio, ejemplo: githubLink: "",
 
@@ -77,12 +77,7 @@ const Roboticsprojects = [
     githubLink: "https://github.com/Fox-Robotics/Mecanismos.git",
     longDescription:
       "The models were designed using SolidWorks 2022, where we conducted a series of motion studies to analyze the behavior of the crank. Once the analysis was complete, we proceeded to 3D print the model for further examination. We utilize a piece of plywood as the base allowing us to observe the mechanism more precisely. For the 3D printing of the model, we use Polylactic Acid (PLA) filament for the assembly parts of the crank.",
-    technologies: [
-      "Solidworks",
-      "Working Model",
-      "Ultimaker Cura",
-      "Creality 3D",
-    ],
+    technologies: ["Solidworks", "WorkingModel", "UltimakerCura", "Creality3D"],
     technologiesDescription:
       "Models design by solidworks, analyzed with Working Model, and manufactured via Cura and Creality Slicers",
     media: [[Mecha, "image"]],

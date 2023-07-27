@@ -10,6 +10,11 @@ import tensorflowLogo from "../assets/img/techLogos/Tensorflow-logo.png";
 import reactLogo from "../assets/img/techLogos/React-logo.png";
 import azureLogo from "../assets/img/techLogos/Azure-logo.png";
 import azureAppServiceLogo from "../assets/img/techLogos/AzureAppServiceLogo.png";
+import workingModelLogo from "../assets/img/techLogos/WorkingModel-Logo.jpg";
+import matlabLogo from "../assets/img/techLogos/Matlab-Logo.png";
+import ultimakerCuraLogo from "../assets/img/techLogos/Cura-logo.png";
+import crealityLogo from "../assets/img/techLogos/Creality-logo.jpg";
+
 //matlab
 
 const TechToLogo = {
@@ -27,6 +32,10 @@ const TechToLogo = {
   Azure: azureLogo,
   AzureMaps: azureLogo,
   AzureAppService: azureAppServiceLogo,
+  WorkingModel: workingModelLogo,
+  MATLAB: matlabLogo,
+  UltimakerCura: ultimakerCuraLogo,
+  Creality3D: crealityLogo,
 };
 
 export default TechToLogo;
