@@ -7,6 +7,7 @@ import ProjectDescription from "../../components/ProjectDescription";
 import ProjectImages from "../../components/ProjectImages";
 import Roboticsprojects from "../../components/RoboticsProjectList";
 import codingProjects from "../../components/CodingProjectList";
+import ProjectMembers from "../../components/ProjectMembers";
 
 export default function ProjectPage() {
   const [searchParams] = useSearchParams();
@@ -27,6 +28,7 @@ export default function ProjectPage() {
         projectList={projectList}
       ></ProjectDescription>
       <ProjectImages projectId={id} projectList={projectList}></ProjectImages>
+      <ProjectMembers projectId={id} projectList={projectList}></ProjectMembers>
       <Footer />
     </div>
   );
