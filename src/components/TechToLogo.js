@@ -14,8 +14,8 @@ import workingModelLogo from "../assets/img/techLogos/WorkingModel-Logo.jpg";
 import matlabLogo from "../assets/img/techLogos/Matlab-Logo.png";
 import ultimakerCuraLogo from "../assets/img/techLogos/Cura-logo.png";
 import crealityLogo from "../assets/img/techLogos/Creality-logo.jpg";
-
-//matlab
+import figmaLogo from "../assets/img/techLogos/Figma-logo.png";
+import HtmlLogo from "../assets/img/techLogos/htmlLogo.png";
 
 const TechToLogo = {
   C: CLogo,
@@ -36,6 +36,8 @@ const TechToLogo = {
   MATLAB: matlabLogo,
   UltimakerCura: ultimakerCuraLogo,
   Creality3D: crealityLogo,
+  Figma: figmaLogo,
+  HTML: HtmlLogo,
 };
 
 export default TechToLogo;
